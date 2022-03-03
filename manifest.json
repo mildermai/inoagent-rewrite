@@ -1,0 +1,37 @@
+{
+    "manifest_version": 2,
+    "name": "Inoagent Rewrite",
+    "description": "Replace a specific phrase on the web",
+    "author": "John Doe",
+    "version": "1.1.2",
+    "options_ui": {
+        "page": "data/prefs.html"
+    },
+    "options_page": "data/prefs.html",
+    "content_scripts": [
+        {
+            "matches": [
+                "http://*/*",
+                "https://*/*"
+            ],
+            "js": [
+                "data/rewrite.js"
+            ],
+            "all_frames": false,
+            "run_at": "document_idle"
+        }
+    ],
+    "permissions": [
+        "storage",
+        "tabs"
+    ],
+    "background": {
+        "scripts": [
+            "lib/main.js"
+        ]
+    },
+    "icons": {
+        "48": "data/icon.png",
+        "64": "data/icon64.png"
+    }
+}

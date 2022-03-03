@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" type="text/css" href="prefs.css">
+  </head>
+  <body>
+    <h3>Inoagent text</h3>
+    <p id="the_phrase">--</p>
+    </p>
+      <label for="replacement_phrase">Replace that text with the phrase</label>
+      <input type="text" id="replacement_phrase" size="50" />
+    </p>
+    <h3>Do not replace on these domains</h3>
+    <table id="whitelist_table">
+      <tr id="whitelist_header">
+        <th>Host name
+        <span style="float: right">
+          <button id="whitelist_clear_button" type="button">Reset</button>
+        </span>
+        </th>
+      </tr>
+    </table>
+    <div class="button_group">
+      <button id="whitelist_add_button" type="button">+ Add</button>
+      <button id="whitelist_save_button" type="button">Save</button>
+      <div id="whitelist_saved_msg" style="display:none;">Saved</div>
+    </div>
+    <script src="../lib/main.js"></script>
+    <script src="prefs.js"></script>
+  </body>
+</html>

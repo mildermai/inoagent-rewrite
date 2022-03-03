@@ -1,0 +1,40 @@
+#the_phrase {
+  font-weight: bold;
+  padding: 0 2em;
+  text-transform: uppercase;
+}
+
+#whitelist_table{
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th {
+  background: inherit;
+  font-weight: bold;
+}
+
+td, th {
+  padding: 5px;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+
+#saved_text, #whitelist_saved_msg {
+  color: green;
+  font-family: sans-serif;
+  font-style: italic;
+  font-size: 0.9em;
+}
+
+.delrow {
+  letter-spacing: 4px;
+  cursor: pointer;
+}
+
+@media (prefers-color-scheme: dark) {
+  body, button, input, th, td, textarea {
+    background-color: rgb(35,34,43);
+    color: #bfbfbf;
+  }
+}
