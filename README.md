@@ -12,8 +12,8 @@ This is a form of censorship.
 This extension replaces that annoying text on websites with custom shorter text.  
 
 ## Install
-
-[Firefox](https://addons.mozilla.org/en-US/firefox/addon/inoagent-rewrite/)
+r
+[Firefox](https://addons.mozilla.org/en-US/firefox/addon/inoagent-rewriter/)
 
 
 ## Latest changes
